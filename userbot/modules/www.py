@@ -46,15 +46,15 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**★ PING ★**")
-    await pong.edit("**★✫ PONG ★✫**")
-    await pong.edit("**★✫★ PANG ★✫★**")
-    await pong.edit("**★✫★✫ PUNG ★✫★✫**")
+    await pong.edit("**★ TOT ★**")
+    await pong.edit("**★✫ TET ★✫**")
+    await pong.edit("**★✫★ TIT ★✫★**")
+    await pong.edit("**★✫★✫ TUT ★✫★✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**❅ SAYANG 😈** "
+    await pong.edit(f"**❅ AING 😈** "
                     f"\n  ➥ `%sms` \n"
-                    f"**❅ GABUT 😜** "
+                    f"**❅ MAUNG 🍆** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -81,7 +81,7 @@ async def pingme(pong):
     await pong.edit("`Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**Sayang!!! 🤩**\n"
+    await pong.edit(f"**Ramleee!!! 🤩**\n"
                     f"➠ **I Love U:** "
                     f"`%sms` \n"
                     f"➠ **So Much:**"
@@ -96,12 +96,12 @@ async def pingme(pong):
     await pong.edit("`Bos Ping..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**☻ Bos Ping!!!**\n"
+    await pong.edit(f"**☻ TOT Ping!!!**\n"
                     f"☻ **Ping:** "
                     f"`%sms` \n"
                     f"☻ **Uptime:** "
                     f"`{uptime}` \n"
-                    f"🐣 **My Love:** `{ALIVE_NAME}`" % (duration))
+                    f"🐣 **LORD AING:** `{ALIVE_NAME}`" % (duration))
 
 
 @register(outgoing=True, pattern="^.speed$")
@@ -148,7 +148,7 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`GABUT YA LU?..............`")
+    await pong.edit("`RAMLE KEK KONTOL?..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**SEPONGGG!!! 😻 **\n**KEGABUTAN :** %sms\n**Bot Uptime  :** {uptime} ⏱" % (duration))
@@ -161,7 +161,7 @@ async def pingme(pong):
     await pong.edit("`Pong.....🔌`")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit("🌻 **Aloo Sayang!**\n`%sms`" % (duration))
+    await pong.edit("🌻 **Blok uteke ning silit!**\n`%sms`" % (duration))
 
 CMD_HELP.update(
     {"ping": "`.ping` ; `.lping` ; `.xping` ; `.sping`\
